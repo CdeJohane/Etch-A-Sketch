@@ -1,0 +1,30 @@
+.page{
+    background-color: lightgrey;
+    font-size: large;
+}
+
+.page #heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page #heading h1{
+    font-family: monospace;
+}
+
+.page #squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page #footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page #footer h3{
+    font-family: monospace;
+    font-weight: lighter;
+}
