@@ -16,11 +16,13 @@ for(let x=1; x<=maxSquares;x++){
         smallSquare.style.height=`${smallSide}px`;
         smallSquare.style.width=`${smallSide}px`;
         smallSquare.style.backgroundColor="#FFFFFF";
+        smallSquare.addEventListener("mouseover", function(e){
+            smallSquare.style.backgroundColor="#F2F300"
+        })
         //Append smallSquare to the row
         rowSquares.appendChild(smallSquare);
     }
     //Append Row to big square
     bigSquare.appendChild(rowSquares); 
 }
-
  
