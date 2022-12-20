@@ -12,6 +12,19 @@
 .page #heading h1{
     font-family: monospace;
 }
+.page #btnPrompt{    
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.page #btnPrompt #size{
+    height: auto;
+    width: auto;
+    font-size: large;
+    font-family: monospace;
+    padding: 5px;
+    margin: 20px;
+}
+
 
 .page #squares{
     display: flex;
